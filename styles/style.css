@@ -2,7 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;;
+    background-color: #F3F1FF;
+    margin: 0px;
+}
+/* -------------------
+              navbar--------------- */
+nav>ul>.home img{
+    Width:51px;
+    Height: 51px;
+}
+nav li{
+  list-style: none;
+  margin: 35px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #562EFF;
+    margin: 0px;
+    height: 110px;
+   
+}
+
+.icon{
+    margin-left: 180px;
+    font-size: 24px;
+    color:#FFFFFF;
+}
+
+.home{
+    display: flex;
+    margin-right: 189px;
+    font-size: 24px;
+    color:#FFFFFF;
+  
+
 }
 main{
     display: flex;
